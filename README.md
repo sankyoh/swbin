@@ -104,6 +104,8 @@ summarize ps_den_flic ps_num sw_flic, detail
 
 `swbin` は重みを作成しますが、共変量バランスの診断や重みのトリミングは行いません。作成後は、少なくとも以下を確認することを推奨します。
 
+なお、確認に用いるために適したコマンドも作成を予定しています。
+
 ```stata
 summarize sw, detail
 histogram sw, bin(50)
@@ -238,6 +240,8 @@ summarize ps_den_flic ps_num sw_flic, detail
 ### Suggested diagnostics after creating weights
 
 `swbin` creates weights but does not perform balance diagnostics or weight truncation. After creating weights, users should examine the propensity score and weight distributions and assess covariate balance.
+
+I also plan to create commands suitable for verification purposes.
 
 ```stata
 summarize sw, detail
