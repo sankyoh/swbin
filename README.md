@@ -290,11 +290,11 @@ stata/sample.do
 
 ## References
 
-- Robins JM, Hernán MA, Brumback B. Marginal structural models and causal inference in epidemiology. *Epidemiology*. 2000;11(5):550-560.
-- Cole SR, Hernán MA. Constructing inverse probability weights for marginal structural models. *American Journal of Epidemiology*. 2008;168(6):656-664.
-- Hernán MA, Robins JM. *Causal Inference: What If*. Chapman & Hall/CRC.
-- Firth D. Bias reduction of maximum likelihood estimates. *Biometrika*. 1993;80(1):27-38.
-- Puhr R, Heinze G, Nold M, Lusa L, Geroldinger A. Firth's logistic regression with rare events: accurate effect estimates and predictions? *Statistics in Medicine*. 2017;36(14):2302-2317.
+- Robins JM, Hernán MA, Brumback B. Marginal structural models and causal inference in epidemiology. *Epidemiology*. 2000;11(5):550-560. [LINK](https://doi.org/10.1097/00001648-200009000-00011) 
+- Cole SR, Hernán MA. Constructing inverse probability weights for marginal structural models. *American Journal of Epidemiology*. 2008;168(6):656-664. [LINK](https://doi.org/10.1093/aje/kwn164)
+- Hernán MA, Robins JM. *Causal Inference: What If*. Chapman & Hall/CRC. [Book Site](https://miguelhernan.org/whatifbook)
+- Firth D. Bias reduction of maximum likelihood estimates. *Biometrika*. 1993;80(1):27-38. [LINK](https://doi.org/10.1093/biomet/80.1.27)
+- Puhr R, Heinze G, Nold M, Lusa L, Geroldinger A. Firth's logistic regression with rare events: accurate effect estimates and predictions? *Statistics in Medicine*. 2017;36(14):2302-2317. [LINK](https://doi.org/10.1002/sim.7273)
 
 ## Author
 
