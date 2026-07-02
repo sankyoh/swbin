@@ -29,7 +29,7 @@ A = 0:  SW = P(A=0) / P(A=0|L)
 
 ### インストール
 
-このリポジトリを GitHub に置いた場合、Stata から以下でインストールできます。
+Stata から以下のコマンドでインストールできます。
 
 ```stata
 net install swbin, from("https://raw.githubusercontent.com/sankyoh/swbin/main/stata") replace
