@@ -6,6 +6,7 @@
 
 エラーやバグなどがありましたらお知らください。できるだけ対応します。
 If you encounter any errors or bugs, please let me know. I'll do our best to address them.
+
 ---
 
 ## 日本語
