@@ -4,7 +4,7 @@
 
 `swbin` estimates the denominator propensity score `P(A=1|L)` using `logit`, `probit`, or Firth logistic regression with intercept correction (FLIC), and estimates the numerator probability `P(A=1)` using an intercept-only standard logistic regression.
 
-## エラーやバグを見つけたら… / If you find any errors or bugs…
+### エラーやバグを見つけたら… / If you find any errors or bugs…
 
 エラーやバグなどがありましたらお知らください。できるだけ対応します。
 
