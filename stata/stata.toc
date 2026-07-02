@@ -1,0 +1,7 @@
+v 3
+d swbin: Stata module to create stabilized weights for binary treatment/exposure
+d
+d Author: Toshiharu Mitsuhashi
+d GitHub: https://github.com/sankyoh/swbin
+d
+p swbin Create stabilized weights for binary treatment/exposure

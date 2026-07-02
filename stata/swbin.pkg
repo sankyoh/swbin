@@ -1,0 +1,17 @@
+v 3
+d 'swbin': Stata module to create stabilized weights for binary treatment/exposure
+d
+d swbin creates stabilized weights for binary treatment/exposure.
+d The denominator propensity score P(A=1|L) can be estimated by logit,
+d probit, or Firth logistic regression with intercept correction (FLIC).
+d The numerator probability P(A=1) is estimated by intercept-only logit.
+d
+d Author: Toshiharu Mitsuhashi
+d GitHub: https://github.com/sankyoh/swbin
+d Support: https://github.com/sankyoh/swbin/issues
+d Version: 1.2.0
+d Distribution-Date: 20260702
+d
+f swbin.ado
+f swbin.sthlp
+f sample.do
