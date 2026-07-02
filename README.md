@@ -35,7 +35,7 @@ Stata から以下のコマンドでインストールできます。
 net install swbin, from("https://raw.githubusercontent.com/sankyoh/swbin/main/stata") replace
 ```
 
-インストール後、確認します。
+インストールが正常にできたかどうかは、下記のコマンドで確認できます。
 
 ```stata
 which swbin
