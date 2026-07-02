@@ -42,20 +42,15 @@ ssc install firthlogit
 
 ## 2. インストール（Installation）
 
-1) `PERSONAL` のパスを確認します。
+1) nte install
+
+下記のコマンドを実行します。
 
 ~~~stata
-sysdir
+net install swbin, from("https://raw.githubusercontent.com/sankyoh/swbin/main/stata") replace
 ~~~
 
-2) `PERSONAL` に `swbin.ado` を置きます。
-
-例：
-
-- Windows: `C:\Users\<User>\Documents\Stata\ado\personal\`
-- macOS/Linux: `~/Library/Application Support/Stata/ado/personal/` など
-
-3) 読み込み確認を行います。
+2) 読み込み確認を行います。
 
 ~~~stata
 which swbin
@@ -65,6 +60,12 @@ which swbin
 
 ~~~stata
 which firthlogit
+~~~
+
+インストールされていなければ、firthlogitをインストールしてください。
+
+~~~stata
+ssc install firthlogit
 ~~~
 
 ---
