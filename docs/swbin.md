@@ -72,6 +72,8 @@ ssc install firthlogit
 
 ## 3. コマンド仕様（AI-readable spec）🤖
 
+生成AIがこのコマンドの仕様を理解するための記述です。
+
 ~~~yaml
 command: swbin
 version: 1.2.0
