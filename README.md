@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/29600832/README.md)
 # swbin
 
 **swbin** is a Stata command for creating stabilized weights for a binary treatment or exposure.
