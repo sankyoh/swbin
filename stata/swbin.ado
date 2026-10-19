@@ -48,7 +48,7 @@ program define swbin, rclass
             exit 198
         }
 
-        capture confirm variable `v'
+        capture confirm variable `v', exact
         if !_rc & "`replace'" == "" {
             di as error "Variable `v' already exists."
             di as error "Use option replace to overwrite existing variables."
@@ -347,7 +347,7 @@ program define swbin, rclass
     *------------------------------------------------------------
 
     foreach v of local outvars {
-        capture confirm variable `v'
+        capture confirm variable `v', exact
 
         if !_rc {
             drop `v'
